@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="name">Chukwuwa Uchenna Francis</string>
+    <string name="yellow_star">Yellow Star</string>
+    <string name="bio">Hi my name is Chukwuwa Uchenna Francis.
+        \n\n I love to code, and I am a very happy person.
+        \n\nI want to be able to solve all the issues of the world.
+        \n\nI love watching good movies that keeps me thinking about the future of tech.
+        \n\nI like playing video games also. I am a very social person
+        \n\nI like food alot and I think I can cook. My biggest dream is to be able to make a whole bowl of sauce.
+        \n\nI am not very good with colours so i left designing.
+    </string>
+    <string name="nickname">Add a Nickname</string>
+    <string name="done_button_text">Done</string>
+</resources>
