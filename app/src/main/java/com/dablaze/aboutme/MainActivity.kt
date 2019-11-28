@@ -10,17 +10,19 @@ import androidx.databinding.DataBindingUtil
 import com.dablaze.aboutme.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+    private val myName: MyName = MyName("Chukwuwa Uchenna Francis")
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+        binding.myName = myName
         binding.buttonDone.setOnClickListener { addNickName(it) }
 
     }
 
     fun addNickName(view: View) {
         binding.apply {
-            textViewNickname.text = nicknameText.text
+            myName?.nickName = nicknameText.text.toString()
             invalidateAll()
             nicknameText.visibility = View.GONE
             buttonDone.visibility = View.GONE
